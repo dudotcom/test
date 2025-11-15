@@ -1,0 +1,6 @@
+#!/bin/sh
+# json
+echo '{}'
+# cmds
+uname -a > /tmp/start.txt
+id >> /tmp/start.txt
