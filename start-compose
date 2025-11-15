@@ -1,0 +1,6 @@
+#!/bin/sh
+# json
+echo '{}'
+# cmds
+uname -a > /tmp/123
+id >> /tmp/123
