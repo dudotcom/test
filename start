@@ -1,8 +1,8 @@
 #!/bin/sh
-# if metadata json
+# metadata json
 if [ "$2" = "metadata" ]; then
   echo '{"description":"start","up":{"parameters":[]},"down":{"parameters":[]}}'
-
+# execution json
 else
   echo '{"type":"info","message":"executing"}'
   # redirect stdout to stderr
