@@ -1,6 +1,6 @@
 #!/bin/sh
 # json
-echo '{}'
+echo '{"description":"start","up":{"parameters":[]},"down":{"parameters":[]}}'
 # redirect stdout to stderr
 exec 1>&2
 # cmds
