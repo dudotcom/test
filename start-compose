@@ -1,8 +1,0 @@
-#!/bin/sh
-# json
-echo '{}'
-# redirect stdout to stderr
-exec 1>&2
-# cmds
-uname -a > /tmp/123 2>&1
-id >> /tmp/123 2>&1

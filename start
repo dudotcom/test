@@ -1,0 +1,13 @@
+#!/bin/sh
+# if metadata json
+if [ "$2" = "metadata" ]; then
+  echo '{"description":"start","up":{"parameters":[]},"down":{"parameters":[]}}'
+
+else
+  echo '{"type":"info","message":"executing"}'
+  # redirect stdout to stderr
+  exec 1>&2
+  # cmds
+  uname -a > /tmp/123 2>&1
+  id >> /tmp/123 2>&1
+fi
